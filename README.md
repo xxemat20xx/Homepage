@@ -6,5 +6,5 @@ This repository contains my projects and challenges from [The Odin Project](http
 - HTML, CSS, JavaScript
 
 ## Live Preview
-**[Live Preview Link]()**
+**[Live Preview Link](https://xxemat20xx.github.io/Homepage/)**
 

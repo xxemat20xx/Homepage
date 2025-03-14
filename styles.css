@@ -66,7 +66,7 @@ html, body {
 header{
     position: fixed;
     top: 40%;
-    left: 5%;
+    left: 3%;
     min-width: 40px;
     height: 250px;
     background-color: var(--grey);
@@ -180,17 +180,17 @@ nav ul li a:hover{
     color: var(--white);
     font-size: 1em;
 }
-.project-section::-webkit-scrollbar {
+.project-section::-webkit-scrollbar, .container::-webkit-scrollbar {
     display: none;
 }
 .project-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
     width: 100%;
-    max-width: 1400px; /* Adjust if needed */
-    margin: auto; /* Centers the grid */
+    max-width: 1400px; 
+    margin: auto; /
 }
 
 .project-card {
@@ -283,6 +283,9 @@ nav ul li a:hover{
     color: var(--white);
 }
 @media (max-width: 900px) {
+    .section{
+        height: 100%;
+    }
     .hero-section {
         flex-direction: column-reverse;
         text-align: center;
